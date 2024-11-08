@@ -9,6 +9,11 @@
 
   --focus-color: greenyellow;
 
+  --nice-color: rgba(255, 255, 255, 0.87);
+  --nice-bg-color: #8cd8a1;
+
+  --nice-bg-gradient: linear-gradient(45deg, #8cd8a1, #e694ee);
+
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -30,6 +35,8 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  color: #ee8936;
+  background: var(--nice-bg-gradient);
 }
 
 h1 {
